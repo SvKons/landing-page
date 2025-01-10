@@ -861,12 +861,24 @@ video {
   max-width: 80px;
 }
 
-.max-w-\[415px\] {
-  max-width: 415px;
+.max-w-\[230px\] {
+  max-width: 230px;
 }
 
 .flex-1 {
   flex: 1 1 0%;
+}
+
+.basis-5 {
+  flex-basis: 1.25rem;
+}
+
+.basis-8 {
+  flex-basis: 2rem;
+}
+
+.basis-16 {
+  flex-basis: 4rem;
 }
 
 .-rotate-6 {
@@ -1095,10 +1107,6 @@ video {
 
 .p-4 {
   padding: 1rem;
-}
-
-.p-8 {
-  padding: 2rem;
 }
 
 .px-2 {
