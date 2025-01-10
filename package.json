@@ -8,7 +8,7 @@
         "build:css": "tailwindcss -i ./src/input.css -o ./dist/output.css",
         "build:copy": "cp -r ./src/index.html ./src/img ./src/scripts ./dist/",
         "build": "npm-run-all clean build:css build:copy",
-        "deploy": "npm-run-all clean build:css build:copy && npx gh-pages -d dist && git push origin gh-pages"
+        "deploy": "npm-run-all clean build:css build:copy && npx gh-pages -d dist"
     },
     "keywords": [],
     "author": "",

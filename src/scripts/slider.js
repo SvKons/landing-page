@@ -5349,7 +5349,7 @@ $(document).ready(function () {
     const sliderDisciplines = $('.slick-slider-disciplines').slick({
         centerMode: true,
         variableWidth: true,
-        slidesToShow: 5,
+        slidesToShow: 7,
         slidesToScroll: 1,
         centerPadding: '20px',
         dots: false,
