@@ -96,6 +96,7 @@
     -ms-transform: translate3d(0, 0, 0);
     -o-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
+    height: 100%;
 }
 
 .slick-track {
@@ -159,7 +160,6 @@
 .slick-slide {
     opacity: 0.5;
     transition: opacity 0.5s ease, transform 0.5s ease;
-    width: auto;
 }
 
 .slick-current {
@@ -167,19 +167,11 @@
 }
 
 .w-84 {
-    width: 336px;
+    width: 310px;
 }
 
 .h-105 {
     height: 430px;
-}
-
-.w-140 {
-    width: 556px;
-}
-
-.h-125 {
-    height: 500px;
 }
 
 .scale-105 {
